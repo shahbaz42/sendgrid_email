@@ -1,4 +1,4 @@
-const {send_mail, send_multiple} = require('./../../utils/sendgrid');
+const {send_mail, send_multiple} = require('../utils/sendgrid');
 
 exports.send_mail = async (req, res) => {
     
